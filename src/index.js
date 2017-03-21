@@ -46,7 +46,6 @@ let components = {};
  }
  }*/
 
-
 const ValidKey = Symbol('validator');
 class ReactJsonFrom extends Engine {
     constructor(...props){
@@ -54,7 +53,7 @@ class ReactJsonFrom extends Engine {
         this.state = this._changeData(this.props.state);
         this.message = new Message();
         const on = this.message.on;
-        //直接通过props去拦截
+        //支持直接通过props去拦截
         this.message.on = (type,...prop)=>{
             const newType = type;
             if(type && typeof type === 'string'){
