@@ -1,9 +1,9 @@
 
-## react-json-form 模块
+## react-dom-jsonform 模块
 ```
-npm install react-json-form  --save
+npm install react-dom-jsonform  --save
 ```
-* react-json-dom  render  use json to the dom
+* react-dom-jsonform render  use json to the form
 
 ## 使用
 

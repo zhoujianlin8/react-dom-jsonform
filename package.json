@@ -1,10 +1,10 @@
 {
-    "name": "react-json-form",
+    "name": "react-dom-jsonform",
     "main": "lib/index.js",
     "version": "0.0.3",
     "repository": {
         "type": "git",
-        "url": "git://github.com/zhoujianlin8/react-json-form"
+        "url": "git://github.com/zhoujianlin8/react-dom-jsonform"
     },
     "description": "react json dom to the from ",
     "keyword": [
