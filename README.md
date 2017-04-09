@@ -1,7 +1,7 @@
 
-## react-json-from 模块
+## react-json-form 模块
 ```
-npm install react-json-dom --save
+npm install react-json-form  --save
 ```
 * react-json-dom  render  use json to the dom
 
@@ -69,13 +69,9 @@ class Edit extends Component {
     onCancel(){
         this.props.fire('OnEditCancel')
     }
-
 }
 
-
 ReactDOM.render(<Edit />, document.getElementById('container'));
-
-
 
 ````
 
